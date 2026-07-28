@@ -1,0 +1,14 @@
+<svg viewBox="0 0 750 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green line -->
+  <line x1="170" y1="290" x2="675" y2="290" stroke="#98D24A" stroke-width="35" stroke-linecap="round"/>
+  
+  <!-- Star -->
+  <g transform="translate(720, 280)">
+    <polygon points="0,-20 6,-6 20,-6 10,2 14,18 0,12 -14,18 -10,2 -20,-6 -6,-6" fill="#98D24A"/>
+  </g>
+  
+  <!-- Afsana text in blue -->
+  <text x="20" y="420" font-family="Arial, sans-serif" font-size="280" font-weight="bold" fill="#0052CC" letter-spacing="-5">
+    Afsana
+  </text>
+</svg>

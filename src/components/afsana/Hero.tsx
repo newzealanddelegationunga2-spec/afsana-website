@@ -92,12 +92,16 @@ export function Hero() {
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-[var(--lime)]" />
             Shiv Nadar School, Gurgaon · Presents
           </span>
-          <h1
-            className="anim-reveal mt-6 font-display text-[18vw] leading-[0.9] tracking-tight text-[var(--royal)] md:text-[10rem]"
+          <div
+            className="anim-reveal mt-6"
             style={{ animationDelay: "80ms" }}
           >
-            <span className="brand-gradient-text">Afsana</span>
-          </h1>
+            <img 
+              src="/afsana-logo.png" 
+              alt="Afsana" 
+              className="h-auto w-full max-w-[760px]"
+            />
+          </div>
           <p
             className="anim-reveal mt-6 max-w-2xl font-display text-2xl italic text-[var(--ink)] md:text-3xl"
             style={{ animationDelay: "180ms" }}
