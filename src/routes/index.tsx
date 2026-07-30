@@ -287,33 +287,6 @@ function Home() {
         </div>
       </Section>
 
-      {/* Previous edition */}
-      <section className="section-y bg-[var(--muted)]">
-        <div className="container-x">
-          <Reveal><span className="eyebrow"><span className="h-1.5 w-1.5 rounded-full bg-[var(--lime)]" />Previous Edition</span></Reveal>
-          <Reveal delay={80}>
-            <h2 className="mt-4 max-w-3xl font-display text-4xl md:text-6xl">
-              Afsana 2024 — <span className="brand-gradient-text">by the numbers.</span>
-            </h2>
-          </Reveal>
-          <div className="mt-14 grid gap-6 md:grid-cols-4">
-            {[
-              ["1,020", "Delegates"],
-              ["42", "Schools"],
-              ["54", "Performances"],
-              ["11", "Workshops"],
-            ].map(([n, l]) => (
-              <div key={l} className="card-soft p-8 text-center">
-                <div className="font-display text-5xl text-[var(--royal)]">{n}</div>
-                <div className="mt-2 text-xs uppercase tracking-[0.2em] text-[var(--mute)]">{l}</div>
-              </div>
-            ))}
-          </div>
-          <div className="mt-8 text-sm text-[var(--mute)]">
-            A short film of last year's edition will be featured here — coming soon.
-          </div>
-        </div>
-      </section>
     </>
   );
 }

@@ -18,9 +18,8 @@ export const Route = createFileRoute("/contact")({
 
 function Contact() {
   const items = [
-    { icon: Mail, label: "Email", value: "afsana@shivnadarschool.edu.in" },
-    { icon: Phone, label: "Phone", value: "+91 98xxxxxx21" },
-    { icon: Instagram, label: "Instagram", value: "@afsana.sns" },
+    { icon: Mail, label: "Email", value: "afsana.ggn@sns.edu.in" },
+    { icon: Instagram, label: "Instagram", value: "@afsanasnsggn" },
     { icon: MapPin, label: "Campus", value: "Shiv Nadar School, Gurgaon, Haryana" },
   ];
   return (
