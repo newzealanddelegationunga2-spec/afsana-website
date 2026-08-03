@@ -67,12 +67,12 @@ export function Hero() {
             d="M120,300 C300,180 520,420 760,300 C960,200 1180,420 1360,320"
             fill="none"
             stroke="url(#g2)"
-            strokeWidth="6"
+            strokeWidth="0"
             strokeLinecap="round"
           />
           {/* sound wave */}
           <g stroke="#0E2B6F" strokeOpacity="0.25" strokeWidth="2" strokeLinecap="round">
-            {Array.from({ length: 34 }).map((_, i) => {
+            {Array.from({ length: 0 }).map((_, i) => {
               const x = 60 + i * 10;
               const h = 20 + Math.abs(Math.sin(i * 0.6)) * 60;
               return <line key={i} x1={x} y1={520 - h} x2={x} y2={520 + h} />;
@@ -81,9 +81,17 @@ export function Hero() {
         </svg>
 
         {/* floating dots */}
-        <span className="anim-float absolute left-[10%] top-[22%] h-3 w-3 rounded-full bg-[var(--lime)]" />
-        <span className="anim-drift absolute right-[18%] top-[30%] h-4 w-4 rounded-full bg-[var(--cyan-brand)]" />
-        <span className="anim-float absolute right-[28%] bottom-[22%] h-2.5 w-2.5 rounded-full bg-[var(--royal)]" />
+        <span className="anim-float absolute left-[10%] top-[22%] h-4 w-4 bg-[var(--lime)] [clip-path:polygon(50%_0%,61%_35%,100%_50%,61%_65%,50%_100%,39%_65%,0_50%,39%_35%)]" />
+
+         <span className="anim-drift absolute right-[18%] top-[30%] h-5 w-5 bg-[var(--cyan-brand)] [clip-path:polygon(50%_0%,61%_35%,100%_50%,61%_65%,50%_100%,39%_65%,0_50%,39%_35%)]" />
+
+         <span className="anim-float absolute right-[12%] bottom-[32%] h-3.5 w-3.5 bg-[var(--royal)] [clip-path:polygon(50%_0%,61%_35%,100%_50%,61%_65%,50%_100%,39%_65%,0_50%,39%_35%)]" />
+
+        <span className="anim-float absolute left-[40%] top-[22%] h-4 w-4 bg-[var(--lime)] [clip-path:polygon(50%_0%,61%_35%,100%_50%,61%_65%,50%_100%,39%_65%,0_50%,39%_35%)]" />
+
+        <span className="anim-drift absolute right-[40%] top-[22%] h-5 w-5 bg-[var(--cyan-brand)] [clip-path:polygon(50%_0%,61%_35%,100%_50%,61%_65%,50%_100%,39%_65%,0_50%,39%_35%)]" />
+
+         <span className="anim-float absolute right-[28%] bottom-[46%] h-3.5 w-3.5 bg-[var(--royal)] [clip-path:polygon(50%_0%,61%_35%,100%_50%,61%_65%,50%_100%,39%_65%,0_50%,39%_35%)]" />
       </div>
 
       <div className="container-x pt-32 pb-24">
@@ -97,9 +105,9 @@ export function Hero() {
             style={{ animationDelay: "80ms" }}
           >
             <img 
-              src="/afsana-logo.png" 
+              src="/afsana-banner.png" 
               alt="Afsana" 
-              className="h-auto w-full max-w-[760px]"
+              className="h-auto w-full max-w-[1000px]"
             />
           </div>
           <p

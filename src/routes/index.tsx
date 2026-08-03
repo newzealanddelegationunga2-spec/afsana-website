@@ -240,15 +240,17 @@ function Home() {
           <div className="relative mt-14 overflow-hidden">
             <div className="anim-marquee flex gap-10 whitespace-nowrap will-change-transform">
               {[
-                "Shiv Nadar School Gurgaon", "Shiv Nadar School Noida", "The Doon School", "Modern School Barakhamba",
+                "Shiv Nadar School Gurgaon", "Shiv Nadar School Noida", "The Shri Ram School, Aravali", "Modern School Barakhamba",
                 "Sanskriti School", "Vasant Valley", "Step by Step School", "Pathways World School",
-                "DPS RK Puram", "Heritage Xperiential", "Riverside School Ahmedabad", "Cathedral & John Connon",
-                "Bombay Scottish School", "Mallya Aditi International", "Inventure Academy",
+                "DPS RK Puram", "Heritage Xperiential", "American Embassy School", "The Mothers International School",
+                "Lancers International School", "The Shri Ram School, Moulsari", "Sardar Patel Vidyalaya", "Lotus Valley International School",
+                "Suncity School", "The Knowledge Habitat", "Shiv Nadar School Faridabad",
               ].concat([
-                "Shiv Nadar School Gurgaon", "Shiv Nadar School Noida", "The Doon School", "Modern School Barakhamba",
+                "Shiv Nadar School Gurgaon", "Shiv Nadar School Noida", "The Shri Ram School, Aravali", "Modern School Barakhamba",
                 "Sanskriti School", "Vasant Valley", "Step by Step School", "Pathways World School",
-                "DPS RK Puram", "Heritage Xperiential", "Riverside School Ahmedabad", "Cathedral & John Connon",
-                "Bombay Scottish School", "Mallya Aditi International", "Inventure Academy",
+                "DPS RK Puram", "Heritage Xperiential", "American Embassy School", "The Mothers International School",
+                "Lancers International School", "The Shri Ram School, Moulsari", "Sardar Patel Vidyalaya", "Lotus Valley International School",
+                "Suncity School", "The Knowledge Habitat", "Shiv Nadar School Faridabad",
               ]).map((s, i) => (
                 <span key={i} className="font-display text-2xl text-[var(--royal)]/70">
                   {s} <span className="mx-4 text-[var(--lime)]">✦</span>
