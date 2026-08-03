@@ -153,7 +153,7 @@ function Home() {
           <Reveal delay={220}>
             <div className="mt-10 overflow-hidden rounded-3xl border border-[var(--border)] bg-white p-4 shadow-sm">
               <iframe
-                src="https://konfhub.com/widget/afsana-shiv-nadar-school-gurgaon-arts-festival?desc=true&secondaryBg=153e75&ticketBg=f8f5f0&borderCl=00a6c8&bg=f8f5f0&fontColor=1f2937&ticketCl=153e75&btnColor=153e75&fontFamily=Hind&borderRadius=10&widget_type=standard&tickets=113083%2C113116&ticketId=113083%7C0%3B113116%7C0"
+                src="https://konfhub.com/widget/afsana-shiv-nadar-school-gurgaon-arts-festival?desc=true&secondaryBg=153e75&ticketBg=f8f5f0&borderCl=00a6c8&bg=f8f5f0&fontColor=f8f5f0&ticketCl=1f2937&btnColor=0f2f5a&fontFamily=Hind&borderRadius=10&widget_type=standard&tickets=113083%2C113116&ticketId=113083%7C0%3B113116%7C0"
                 id="konfhub-widget"
                 title="Register for Afsana - Shiv Nadar School Gurgaon Arts Festival"
                 width="100%"
