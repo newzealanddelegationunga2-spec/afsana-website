@@ -395,14 +395,14 @@ export const sponsorTiers = [
 ];
 
 export const team = [
-  { name: "Aarohi Sen", role: "Festival Director", dept: "Organising Committee" },
-  { name: "Vikram Rao", role: "Creative Lead", dept: "Organising Committee" },
-  { name: "Meher Puri", role: "Head — The Rhythm", dept: "Music" },
-  { name: "Ananya Mehta", role: "Head — The Stage", dept: "Theatre" },
-  { name: "Ira Dutta", role: "Head — The Movement", dept: "Dance" },
-  { name: "Rohan Kapoor", role: "Head — The Canvas", dept: "Fine Arts" },
-  { name: "Devika Rane", role: "Head — The Words", dept: "Literary Arts" },
-  { name: "Sara Verma", role: "Design & Identity", dept: "Design" },
+  { name: "Tvisha Das", role: "Director", dept: "Organising Committee" },
+  { name: "Riaan Sabharwal", role: "Deputy Director", dept: "Organising Committee" },
+  { name: "Aanya Roy", role: "Deputy Director", dept: "Organising Committee" },
+  { name: "Anaaya Chawla", role: "Head - Curation", dept: "Curation " },
+  { name: "Ananya Ahluwalia", role: "Head — Outreach", dept: "Outreach" },
+  { name: "Vian Jain", role: "Head — Human Resources", dept: "HR" },
+  { name: "Shaurya Singh", role: "Head — Finance", dept: "Finance" },
+  { name: "Aarav Singh", role: "Head - Logistics", dept: "Logistics" },
   { name: "Kabir Suri", role: "Production", dept: "Production" },
   { name: "Nivedita Chaudhary", role: "Media & Film", dept: "Media" },
   { name: "Yash Bhalla", role: "Hospitality", dept: "Operations" },
