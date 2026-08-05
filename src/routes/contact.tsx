@@ -49,18 +49,14 @@ function Contact() {
           <Reveal delay={120}>
             <div className="card-soft overflow-hidden">
               <div className="aspect-[4/3] w-full bg-[var(--muted)]">
-                <div
-                  className="grid h-full w-full place-items-center"
-                  style={{
-                    background: "linear-gradient(135deg, rgba(14,43,111,.08), rgba(31,168,224,.15))",
-                  }}
-                >
-                  <div className="text-center">
-                    <MapPin className="mx-auto text-[var(--royal)]" />
-                    <div className="mt-3 font-display text-xl text-[var(--royal)]">Google Maps embed</div>
-                    <div className="mt-1 text-sm text-[var(--mute)]">Shiv Nadar School, Gurgaon</div>
-                  </div>
-                </div>
+                <iframe
+                  title="Shiv Nadar School Gurgaon map"
+                  src="https://maps.google.com/maps?q=Shiv%20Nadar%20School%20Gurgaon&output=embed"
+                  className="h-full w-full"
+                  frameBorder="0"
+                  allowFullScreen
+                  loading="lazy"
+                />
               </div>
               <div className="p-6">
                 <div className="font-display text-2xl text-[var(--royal)]">Reaching campus</div>

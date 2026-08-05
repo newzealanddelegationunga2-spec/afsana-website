@@ -405,8 +405,7 @@ export const team = [
   { name: "Aarav Singh", role: "Head - Logistics", dept: "Logistics" },
   { name: "Vania Pradhan", role: "Head - Design", dept: "Design" },
   { name: "Vihaan Jindal", role: "Head - Tech", dept: "Tech" },
-  { name: "Yash Bhalla", role: "Hospitality", dept: "Operations" },
-  { name: "Tara Iyer", role: "Outreach", dept: "Community" },
+  { name: "Vidhi Dawar", role: "Head - Marketing", dept: "Marketing" },
 ];
 
 export const faqs = [

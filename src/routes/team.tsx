@@ -65,9 +65,6 @@ function TeamPage() {
                     <div className="mt-4 font-display text-lg text-[var(--royal)]">{m.name}</div>
                     <div className="text-sm text-[var(--mute)]">{m.role}</div>
                     <div className="mt-3 flex justify-center gap-2 text-[var(--mute)]">
-                      <a href="#" aria-label="Instagram" className="rounded-full p-1.5 hover:bg-[var(--royal)]/5 hover:text-[var(--royal)]"><Instagram size={16} /></a>
-                      <a href="#" aria-label="LinkedIn" className="rounded-full p-1.5 hover:bg-[var(--royal)]/5 hover:text-[var(--royal)]"><Linkedin size={16} /></a>
-                      <a href="#" aria-label="Email" className="rounded-full p-1.5 hover:bg-[var(--royal)]/5 hover:text-[var(--royal)]"><Mail size={16} /></a>
                     </div>
                   </div>
                 ))}
