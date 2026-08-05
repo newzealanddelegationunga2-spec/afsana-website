@@ -411,7 +411,7 @@ function Home() {
 
           <Reveal delay={80}>
             <h2 className="mt-4 max-w-3xl font-display text-4xl md:text-6xl">
-              45+ schools.{" "}
+              17+ schools.{" "}
               <span className="brand-gradient-text">One weekend.</span>
             </h2>
           </Reveal>

@@ -403,8 +403,8 @@ export const team = [
   { name: "Vian Jain", role: "Head — Human Resources", dept: "HR" },
   { name: "Shaurya Singh", role: "Head — Finance", dept: "Finance" },
   { name: "Aarav Singh", role: "Head - Logistics", dept: "Logistics" },
-  { name: "Kabir Suri", role: "Production", dept: "Production" },
-  { name: "Nivedita Chaudhary", role: "Media & Film", dept: "Media" },
+  { name: "Vania Pradhan", role: "Head - Design", dept: "Design" },
+  { name: "Vihaan Jindal", role: "Head - Tech", dept: "Tech" },
   { name: "Yash Bhalla", role: "Hospitality", dept: "Operations" },
   { name: "Tara Iyer", role: "Outreach", dept: "Community" },
 ];

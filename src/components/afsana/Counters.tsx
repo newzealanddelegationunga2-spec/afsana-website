@@ -46,7 +46,7 @@ export function Counters() {
     <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
       <Stat value={700} label="Participants" suffix="+" />
       <Stat value={16} label="Partner Schools" />
-      <Stat value={60} label="Performances" />
+      <Stat value={21} label="Performances" />
       <Stat value={3} label="Days of Art" />
     </div>
   );
