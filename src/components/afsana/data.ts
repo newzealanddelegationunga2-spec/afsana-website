@@ -10,54 +10,44 @@ export type World = {
 
 export const worlds: World[] = [
   {
-    slug: "stage",
-    emoji: "🎭",
-    name: "The Stage",
-    label: "Theatre",
+    slug: "rhapsody",
+    emoji: "🎸",
+    name: "Rhapsody",
+    label: "Battle of the Bands",
     blurb:
-      "Where scripts breathe. Monologues, ensemble pieces and stagecraft that turn empty floors into worlds.",
+      "High-voltage performances, electrifying riffs, powerful vocals, and unforgettable stage presence — where bands battle for the ultimate spotlight.",
     hue: "#0E2B6F",
     tint: "rgba(14,43,111,.08)",
   },
   {
-    slug: "rhythm",
-    emoji: "🎵",
-    name: "The Rhythm",
-    label: "Music",
+    slug: "8-beats",
+    emoji: "💃",
+    name: "8 Beats",
+    label: "Dance",
     blurb:
-      "Choirs, bands, classical solos and contemporary sets — a festival where every note has a story.",
+      "From classical elegance to hip-hop energy, crews and soloists light up the stage with rhythm, passion, and breathtaking choreography.",
     hue: "#1FA8E0",
     tint: "rgba(31,168,224,.10)",
   },
   {
-    slug: "movement",
-    emoji: "💃",
-    name: "The Movement",
-    label: "Dance",
+    slug: "kalateeth",
+    emoji: "🎭",
+    name: "Kalateeth",
+    label: "Theatre",
     blurb:
-      "From classical roots to contemporary choreography — movement as the language of memory.",
+      "Compelling stories, expressive performances, and creative stagecraft come together to transform imagination into unforgettable theatre.",
     hue: "#98D24A",
     tint: "rgba(152,210,74,.16)",
   },
   {
-    slug: "canvas",
+    slug: "art-galli",
     emoji: "🎨",
-    name: "The Canvas",
+    name: "Art Galli",
     label: "Fine Arts",
     blurb:
-      "Live painting, installations, sculpture and design — colour as a way of thinking.",
+      "A vibrant showcase of paintings, sketches, sculptures, installations, and creative expression where every artwork tells its own story.",
     hue: "#0E2B6F",
     tint: "rgba(14,43,111,.06)",
-  },
-  {
-    slug: "words",
-    emoji: "✍️",
-    name: "The Words",
-    label: "Literary Arts",
-    blurb:
-      "Debate, slam poetry, storytelling and creative writing — where language becomes performance.",
-    hue: "#1FA8E0",
-    tint: "rgba(31,168,224,.08)",
   },
 ];
 
