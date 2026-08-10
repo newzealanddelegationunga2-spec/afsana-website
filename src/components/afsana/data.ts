@@ -61,6 +61,7 @@ export type Event = {
   timing: string;
   coordinator: string;
 };
+ 
 
 export const events: Event[] = [
   {
@@ -69,7 +70,7 @@ export const events: Event[] = [
     category: "The Canvas · Fine Arts",
     short: "Create. Reflect. Heal.",
     concept:
-      "Participants will take part in a retro-inspired art therapy workshop focused on creativity, mindfulness, and personal expression under the guidance of a facilitator. No prior artistic experience is required, and all materials will be provided.",
+      "Art has the ability to express emotions that words often cannot. This workshop invites participants to slow down and reconnect with themselves through the artistic technique of negative space, focusing on what is left out rather than what is added. Through creative expression, participants explore mindfulness, self-reflection, letting go of distractions, and the discovery of meaningful space within themselves.",
     venue: "Art Studio (IC Wing)",
     timing: "Day 1 · 10:30 – 12:00",
     coordinator: "",
@@ -78,8 +79,9 @@ export const events: Event[] = [
     id: "voices-from-the-past",
     name: "Voices from the Past Competition",
     category: "The Stage · Theatre",
-    short: "",
-    concept: "",
+    short: "History finds its voice.",
+    concept:
+      "A monologue competition where participants step into the lives of iconic historical personalities whose actions and ideas have shaped societies. Through careful research, thoughtful interpretation, and expressive performance, students explore the triumphs, struggles, motivations, and legacies of remarkable individuals, bringing history to life through the power of theatre.",
     venue: "Theatre Room 1 and 2",
     timing: "Day 1 · 10:30 – 12:00",
     coordinator: "",
@@ -99,8 +101,9 @@ export const events: Event[] = [
     id: "dance-championship",
     name: "Dance Championship",
     category: "The Movement · Dance",
-    short: "",
-    concept: "",
+    short: "Find your rhythm.",
+    concept:
+      "A group dance competition celebrating individuality, creativity, and storytelling through movement. Teams may explore any dance style or fusion, including Indian classical, contemporary, hip-hop, jazz, folk, waacking, locking, and ballet. Performances are judged on synchronization, musicality, originality, meaningful storytelling, and the team’s ability to create a unified artistic identity.",
     venue: "WCH",
     timing: "Day 1 · 10:30 – 12:00",
     coordinator: "",
@@ -111,7 +114,7 @@ export const events: Event[] = [
     category: "Cross-discipline",
     short: "AI: Boon or Bane?",
     concept:
-      "An interactive guest speaker session exploring the impact of artificial intelligence on the creative arts. Students will engage in discussion and a Q&A on the opportunities and challenges AI presents for artists.",
+      "An interactive guest speaker session exploring the evolving relationship between traditional artistic intuition and artificial intelligence. The session examines how artists move from ideas to execution in an age where art can be created by hand, digitized, or generated with AI, while exploring whether AI is limiting creativity or expanding the creative palette.",
     venue: "Mini WCH (IC Wing)",
     timing: "Day 1 · 12:00 – 1:00",
     coordinator: "",
@@ -120,8 +123,9 @@ export const events: Event[] = [
     id: "silhouettes-workshop",
     name: "Silhouettes Workshop",
     category: "The Stage · Theatre",
-    short: "",
-    concept: "",
+    short: "Stories without words.",
+    concept:
+      "The brochure does not provide a standalone concept for an event titled Silhouettes Workshop. The closest documented theatre event is Silencio, a mime competition focused on telling stories through facial expressions, body language, and movement without spoken words.",
     venue: "Theatre Room",
     timing: "Day 1 · 12:00 – 1:00",
     coordinator: "",
@@ -144,7 +148,7 @@ export const events: Event[] = [
     category: "The Movement · Dance",
     short: "Learn. Battle. Perform.",
     concept:
-      "A high-energy, interactive workshop led by a professional hip hop choreographer. Participants will learn the foundations of hip hop, explore its journey into Indian dance culture, and perform in a friendly battle at the end of the session.",
+      "A high-energy workshop exploring the foundations, history, culture, and evolution of hip-hop dance. Guided by an experienced choreographer, participants learn grooves, techniques, rhythm, and musicality while exploring how changes in energy, timing, texture, and intention can give movement a unique identity. The workshop culminates in a battle celebrating creativity, individuality, freedom, and self-expression.",
     venue: "Dance Room",
     timing: "Day 2 · 9:00 – 11:00",
     coordinator: "",
@@ -155,7 +159,7 @@ export const events: Event[] = [
     category: "The Stage · Theatre",
     short: "One stage. Endless stories.",
     concept:
-      "A one-act play competition where teams present original productions inspired by an abstract prompt. Performances are judged on storytelling, originality, characterization, stagecraft, and overall impact.",
+      "A one-act play competition where participants devise an original theatrical performance inspired by a single abstract word. Themes such as Labels, Time, Connections, Freedom, or Silence become starting points for teams to explore personal experiences, social realities, and creative interpretations through collaborative theatre-making.",
     venue: "Mini WCH (IC Wing)",
     timing: "Day 2 · 9:00 – 12:00",
     coordinator: "",
@@ -164,8 +168,9 @@ export const events: Event[] = [
     id: "take-one-workshop",
     name: "Take One Workshop",
     category: "Cross-discipline",
-    short: "",
-    concept: "",
+    short: "From idea to screen.",
+    concept:
+      "An immersive filmmaking workshop that demystifies the process of taking an idea from page to screen. Participants work collaboratively in production teams to pitch, write, shoot, and edit original short films while exploring the creative and technical foundations of cinema, preparing them for the festival’s filmmaking competition.",
     venue: "Theatre Studio",
     timing: "Day 2 · 9:00 – 12:00",
     coordinator: "",
@@ -174,9 +179,9 @@ export const events: Event[] = [
     id: "art-heist",
     name: "Art Heist Competition",
     category: "The Canvas · Fine Arts",
-    short: "Retro reimagined.",
+    short: "Steal the essence. Make it yours.",
     concept:
-      "Participants reinterpret the visual language of Retro India and Indian Maximalism through an original artwork inspired by vintage advertisements, Bollywood posters, hand-painted signs, and matchbox art. Entries are judged on creativity, interpretation, technique, and presentation.",
+      "A visual art competition challenging participants to study the visual language of influential Indian artists and transform their influences into original artwork. Participants identify elements such as colour, composition, symbolism, linework, technique, or subject from artists including M.F. Husain, S.H. Raza, Amrita Sher-Gil, Jamini Roy, Tyeb Mehta, F.N. Souza, Raja Ravi Varma, and Nalini Malani, then reinterpret those ideas in their own creative voice.",
     venue: "Old Art Rooms",
     timing: "Day 2 · 9:00 – 12:00",
     coordinator: "",
@@ -187,7 +192,7 @@ export const events: Event[] = [
     category: "The Movement · Dance",
     short: "Tradition in motion.",
     concept:
-      "An interactive guest speaker session where a renowned traditional dancer shares their artistic journey, the cultural significance of their dance form, and engages students in an open Q&A.",
+      "An immersive workshop led by a guest artist exploring the beauty of Indian classical dance through rhythm, expression, storytelling, and movement. Participants engage in discussion, ask questions, and share their own artistic journeys while discovering how an ancient art form continues to evolve and remain relevant today.",
     venue: "Mini WCH (IC Wing)",
     timing: "Day 2 · 12:00 – 1:00",
     coordinator: "",
@@ -196,8 +201,9 @@ export const events: Event[] = [
     id: "blue-notes-speaker",
     name: "Blue Notes Speaker (Jazz)",
     category: "The Rhythm · Music",
-    short: "",
-    concept: "",
+    short: "Jazz has a story.",
+    concept:
+      "An interactive session exploring the history and evolution of Delhi’s jazz scene, tracing the musicians, venues, independent collectives, and cultural influences that shaped the city’s musical identity. The session combines cultural insights and anecdotes with an interactive Q&A and live session, giving students the opportunity to experience jazz as a living and evolving form of artistic expression.",
     venue: "Theatre Studio",
     timing: "Day 2 · 12:00 – 1:00",
     coordinator: "",
@@ -208,7 +214,7 @@ export const events: Event[] = [
     category: "The Canvas · Fine Arts",
     short: "Walk through art.",
     concept:
-      "An immersive walk-through exhibition inspired by Indian truck art and highway culture, featuring interactive installations, photography zones, and experiential displays that visitors can explore at their own pace.",
+      "An immersive experience inspired by Indian truck art and the visual culture of Indian streets. Art Gali brings together a bazaar, community hub, social adda, tribute to Indian cultural icons, and an archive of the school’s arts community, allowing visitors to wander, shop, create, listen, and participate while experiencing the nostalgia and energy of a desi retro street.",
     venue: "MYP Classroom",
     timing: "Day 2 · 12:00 – 2:30",
     coordinator: "",
@@ -219,7 +225,7 @@ export const events: Event[] = [
     category: "The Canvas · Fine Arts",
     short: "Shape your imagination.",
     concept:
-      "A guided hands-on workshop where participants learn clay modelling techniques and create original sculptures inspired by Retro India, vintage advertisements, and traditional Indian design motifs.",
+      "A hands-on creative session inviting participants to work directly with clay, natural textures, and living seeds. Inspired by the Gaia Hypothesis and the connections between soil, human health, trees, biodiversity, and food systems, participants create physical artefacts that celebrate India’s ecological and cultural heritage.",
     venue: "Art Room",
     timing: "Day 2 · 1:30 – 2:30",
     coordinator: "",
@@ -228,9 +234,9 @@ export const events: Event[] = [
     id: "slam-poetry",
     name: "Slam Poetry Competition",
     category: "The Words · Literary Arts",
-    short: "Words that resonate.",
+    short: "Let your voice resonate.",
     concept:
-      "A two-round slam poetry competition featuring original spoken-word performances in Hindi and English. Finalists showcase prepared pieces before taking on an impromptu creative challenge judged on originality, delivery, and impact.",
+      "A featured poetry competition designed to give young wordsmiths a platform to unleash their creativity and bring their unique voices into the spotlight. Participants use spoken word and performance to express their ideas, perspectives, and stories while engaging with the competition’s guidelines, timelines, and regulations.",
     venue: "Mini WCH (4th Floor)",
     timing: "Day 2 · 8:00 – 2:00",
     coordinator: "",
@@ -241,9 +247,9 @@ export const events: Event[] = [
     id: "university-fair",
     name: "University Fair",
     category: "Cross-discipline",
-    short: "Explore your future.",
+    short: "Where passion meets profession.",
     concept:
-      "A university exhibition featuring institutions specializing in film, art, design, music, dance, media, and other creative disciplines. Students can interact directly with university representatives to learn about admissions, portfolios, auditions, and career pathways.",
+      "An arts-focused university fair bringing together leading national and global institutions across music, theatre, film, design, dance, visual arts, and media. Students and parents can interact directly with university representatives to explore admissions, creative portfolios, career pathways, and how artistic talent can translate into a professional future.",
     venue: "Mini WCH (IC Wing)",
     timing: "Day 3 · 8:00 – 10:00",
     coordinator: "",
@@ -252,8 +258,9 @@ export const events: Event[] = [
     id: "mini-film-fest",
     name: "Mini Film Fest",
     category: "Cross-discipline",
-    short: "",
-    concept: "",
+    short: "Stories on screen.",
+    concept:
+      "A showcase celebrating student filmmaking and the journey from idea to screen. Building on the Take One filmmaking experience, students explore storytelling through original short films, bringing together scriptwriting, direction, cinematography, editing, and visual storytelling to create films that reflect their perspectives and artistic vision.",
     venue: "Theatre Studio",
     timing: "Day 3 · 10:00 – 12:00",
     coordinator: "",
@@ -285,7 +292,7 @@ export const events: Event[] = [
     category: "The Rhythm · Music",
     short: "Where talent takes the stage.",
     concept:
-      "The flagship music competition of Rhapsody, bringing together school bands for live performances before a professional jury. Bands are judged on musicality, technical proficiency, originality, stage presence, and audience engagement.",
+      "The flagship music competition of Rhapsody, bringing together student bands from across schools for live performances. Bands showcase their unique sound through original music or fresh takes on well-known songs and are judged on musicality, stage presence, coordination, and overall performance.",
     venue: "WCH",
     timing: "Day 3 · 1:30 – 3:00",
     coordinator: "",
@@ -296,12 +303,13 @@ export const events: Event[] = [
     category: "Festival",
     short: "Celebrating excellence.",
     concept:
-      "The closing ceremony recognizing winners across all competitions, celebrating outstanding performances and creative achievements throughout the festival.",
+      "The closing ceremony recognizing winners across the festival’s competitions and celebrating outstanding performances and creative achievements throughout Afsana.",
     venue: "WCH",
     timing: "Day 3 · 3:00 – 3:30",
     coordinator: "",
   },
 ];
+
 export const timeline = [
   {
     day: "Day 01",
