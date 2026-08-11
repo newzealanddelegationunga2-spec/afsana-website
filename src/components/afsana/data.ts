@@ -30,9 +30,9 @@ export const worlds: World[] = [
     tint: "rgba(31,168,224,.10)",
   },
   {
-    slug: "kalateeth",
+    slug: "kalateet",
     emoji: "🎭",
-    name: "Kalateeth",
+    name: "Kalateet",
     label: "Theatre",
     blurb:
       "Compelling stories, expressive performances, and creative stagecraft come together to transform imagination into unforgettable theatre.",
@@ -256,27 +256,7 @@ export const events: Event[] = [
     timing: "Day 3 · 10:00 – 12:00",
     coordinator: "",
   },
-  {
-    id: "sound-check",
-    name: "Sound Check",
-    category: "The Rhythm · Music",
-    short: "Behind every great performance.",
-    concept:
-      "Final technical rehearsals for Battle of the Bands finalists, allowing performers to test instruments, stage setup, monitor mixes, and lighting before the showcase.",
-    venue: "WCH",
-    timing: "Day 3 · 12:00 – 1:00",
-    coordinator: "",
-  },
-  {
-    id: "judges-performance",
-    name: "Judges Performance",
-    category: "The Rhythm · Music",
-    short: "",
-    concept: "",
-    venue: "WCH",
-    timing: "Day 3 · 1:00 – 1:30",
-    coordinator: "",
-  },
+
   {
     id: "battle-of-the-bands",
     name: "Battle of the Bands",
@@ -286,17 +266,6 @@ export const events: Event[] = [
       "The flagship music competition of Rhapsody, bringing together student bands from across schools for live performances. Bands showcase their unique sound through original music or fresh takes on well-known songs and are judged on musicality, stage presence, coordination, and overall performance.",
     venue: "WCH",
     timing: "Day 3 · 1:30 – 3:00",
-    coordinator: "",
-  },
-  {
-    id: "prize-distribution",
-    name: "Prize Distribution",
-    category: "Festival",
-    short: "Celebrating excellence.",
-    concept:
-      "The closing ceremony recognizing winners across the festival’s competitions and celebrating outstanding performances and creative achievements throughout Afsana.",
-    venue: "WCH",
-    timing: "Day 3 · 3:00 – 3:30",
     coordinator: "",
   },
 ];

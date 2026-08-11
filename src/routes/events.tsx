@@ -46,7 +46,7 @@ const eventImages: Record<string, string> = {
   // ---------- DAY 1 ----------
 
   "art-therapy-workshop":
-    "https://static.wixstatic.com/media/4090eb_1acfae47f7824b09883baf5988476c91~mv2.jpeg/v1/fill/w_1200,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4090eb_1acfae47f7824b09883baf5988476c91~mv2.jpeg",
+    "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   "voices-from-the-past":
     "https://surnosecrans.files.wordpress.com/2023/07/fracture.s-1-9.jpeg?w=1200",
@@ -58,7 +58,7 @@ const eventImages: Record<string, string> = {
     "https://storage.ghost.io/c/81/43/8143ec94-5168-45b1-a5e8-d3ad406ee496/content/images/2025/01/Pic-2.JPG",
 
   "ai-and-arts":
-    "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?q=80&w=996&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   "silhouettes-workshop":
     "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1200&q=85",
@@ -69,10 +69,10 @@ const eventImages: Record<string, string> = {
   // ---------- DAY 2 ----------
 
   "hip-hop-workshop":
-    "https://www.stephanemonserant.com/wp-content/uploads/2019/02/023_Le-duo-Battle-hip-hop-Vibrations-Urbaines-2018.jpg",
+    "https://images.unsplash.com/photo-1609602961949-eddbb90383cc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   "fourth-wall":
-    "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1514306191717-452ec28c7814?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   "take-one-workshop":
     "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=85",
@@ -81,19 +81,19 @@ const eventImages: Record<string, string> = {
     "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=1200&q=85",
 
   "traditional-dance-speaker":
-    "https://storage.ghost.io/c/81/43/8143ec94-5168-45b1-a5e8-d3ad406ee496/content/images/2025/01/Pic-2.JPG",
+    "https://images.unsplash.com/photo-1651512186979-737021ace442?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   "blue-notes-speaker":
-    "https://assets-prod.turntabletickets.com/media/frankiesjazzclub/show-4318/chung.jpeg",
+    "https://images.unsplash.com/photo-1546872006-43d8f499a0e1?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   "immersive-art-galli":
-    "https://mehtatransportcorporations.com/upload/1742987611453.jpeg",
+    "https://images.unsplash.com/photo-1776813267051-f8ab779b1e9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZlc3RpdmUlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fDB8fHww",
 
   "clay-modelling-workshop":
-    "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=1200&q=85",
+    "https://images.unsplash.com/photo-1529690840038-f38da8894ff6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   "slam-poetry":
-    "https://assets.st-note.com/production/uploads/images/8412206/picture_pc_ffe606be366e0c36fb157c526351bd49.jpg?fit=bounds&height=1200&quality=85&width=1200",
+    "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   // ---------- DAY 3 ----------
 
@@ -251,16 +251,6 @@ function EventsPage() {
                       </button>
                     )}
 
-                    <a
-                      href="#rules"
-                      onClick={(ev) => {
-                        ev.preventDefault();
-                        alert("Rules document coming soon.");
-                      }}
-                      className="rounded-full bg-[var(--royal)] px-4 py-2 text-xs font-medium text-white"
-                    >
-                      Rules
-                    </a>
                   </div>
                 </div>
               </article>
