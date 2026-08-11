@@ -13,11 +13,10 @@ export const worlds: World[] = [
     slug: "rhapsody",
     emoji: "🎸",
     name: "Rhapsody",
-    label: "Battle of the Bands",
+    label: "Music",
     blurb:
       "High-voltage performances, electrifying riffs, powerful vocals, and unforgettable stage presence — where bands battle for the ultimate spotlight.",
-    hue: "#0E2B6F",
-    tint: "rgba(14,43,111,.08)",
+    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZlc3RpdmUlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fDB8fHww",
   },
   {
     slug: "8-beats",
@@ -324,7 +323,7 @@ export const timeline = [
       },
       {
         time: "All Day",
-        name: "ART GALLI",
+        name: "Art Galli",
         note: "ART GALLI · 3rd Floor · All Day.",
       },
     ],
@@ -393,7 +392,7 @@ export const timeline = [
       },
       {
         time: "All Day",
-        name: "ART GALI",
+        name: "Art Galli",
         note: "ART GALI · 3rd Floor · All Day.",
       },
     ],

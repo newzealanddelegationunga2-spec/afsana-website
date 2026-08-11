@@ -93,11 +93,11 @@ function Explore() {
                     </h3>
                     <p className="mt-6 max-w-lg text-lg text-[var(--mute)]">{w.blurb}</p>
                     <ul className="mt-8 space-y-3 text-[var(--ink)]">
-                      {(idx === 0 ? ["Solo Monologue", "Ensemble Play", "Improvisation Battle", "Stagecraft & Design"]
-                        : idx === 1 ? ["Battle of the Bands", "Indian Classical Solo", "Choir", "Songwriting"]
-                        : idx === 2 ? ["Contemporary Choreography", "Classical Solo", "Duet", "Movement Lab"]
-                        : idx === 3 ? ["Live Painting", "Installation", "Sculpture", "Design Challenge"]
-                        : ["Slam Poetry", "Debate", "Storytelling", "Creative Writing"]).map((n) => (
+                      {(idx === 0 ? ["Swaranjali", "Battle Of The Bands", "Blue Notes Jazz"]
+                        : idx === 1 ? ["Dance Championship", "Dance Workshop", "Hip Hop Dance Battle", "Traditional Dance Speaker"]
+                        : idx === 2 ? ["Voices From The Past", "Sillhouette Workshop", "The Fourth Wall Competition"]
+                        : idx === 3 ? ["Art Therapy Workshop", "Art Heist Competition", "Clay Modelling Workshop", "Immersive Art Galli"]
+                        : ["Art Therapy Workshop", "Art Heist Competition", "Clay Modelling Workshop", "Immersive Art Galli"]).map((n) => (
                         <li key={n} className="flex items-center gap-3">
                           <span className="h-1.5 w-1.5 rounded-full" style={{ background: w.hue }} />
                           {n}
