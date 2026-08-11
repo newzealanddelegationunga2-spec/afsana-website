@@ -273,47 +273,193 @@ export const events: Event[] = [
 export const timeline = [
   {
     day: "Day 01",
-    date: "Friday",
+    date: "20 August",
     title: "Opening & First Sparks",
     color: "#0E2B6F",
     items: [
-      { time: "08:15", name: "Welcoming of Attendees", note: "Registration and Welcome" },
-      { time: "09:00", name: "Opening Ceremony", note: "Lighting of the lamp, festival address, ensemble opening act." },
-      { time: "10:30", name: "Art Therapy Workshop", note: "Creative expression through visual and performance-based activities." },
-      { time: "10:30", name: "Voices from the Past Competition", note: "A historical storytelling and performance showcase." },
-      { time: "10:30", name: "Swaranjali", note: "Classical music performance with focus on raga and laya." },
-      { time: "10:30", name: "Dance Championship", note: "A high-energy dance competition featuring multiple styles." },
-      { time: "12:00", name: "Guest Speaker - AI and Arts", note: "Invited alumni ensemble." },
-      { time: "12:00", name: "Silhouettes Workshop", note: "Invited alumni ensemble." },
+      {
+        time: "08:30",
+        name: "Welcoming of Attendees",
+        note: "Registration and welcome at the Double Height Area.",
+      },
+      {
+        time: "09:00",
+        name: "Opening Ceremony",
+        note: "The festival officially begins at WCH.",
+      },
+      {
+        time: "10:30",
+        name: "Negative Space - Art Therapy Workshop",
+        note: "Art therapy workshop at the Art Studio (IC Wing).",
+      },
+      {
+        time: "10:30",
+        name: "Archives (Monologue Competition)",
+        note: "Monologue competition in Theatre Room 1 and 2.",
+      },
+      {
+        time: "10:30",
+        name: "Swaranjali (Indian Music Workshop)",
+        note: "Indian music workshop at the Theatre Studio (IC Wing).",
+      },
+      {
+        time: "10:30",
+        name: "Dance Championship",
+        note: "Dance competition at WCH.",
+      },
+      {
+        time: "11:00",
+        name: "Silencio (Mime Competition)",
+        note: "Mime competition at Mini WCH (4th Floor).",
+      },
+      {
+        time: "12:00",
+        name: "Guest Speaker Session: Spark to Screen (AI & Arts)",
+        note: "Guest speaker session exploring AI and the arts at Mini WCH (IC Wing).",
+      },
+      {
+        time: "13:00",
+        name: "Lunch",
+        note: "Lunch at the Basketball Court.",
+      },
+      {
+        time: "All Day",
+        name: "ART GALLI",
+        note: "ART GALLI · 3rd Floor · All Day.",
+      },
     ],
   },
+
   {
     day: "Day 02",
-    date: "Saturday",
+    date: "21 August",
     title: "The Festival in Full Colour",
     color: "#1FA8E0",
     items: [
-      { time: "09:00", name: "The Fourth Wall Competition", note: "Solo artists at work in the courtyard, all day." },
-      { time: "09:00", name: "Take One Workshop", note: "Solo artists at work in the courtyard, all day." },
-      { time: "09:00", name: "Art Heist Competition", note: "Solo artists at work in the courtyard, all day." },
-      { time: "12:00", name: "Traditional Dance Speaker", note: "Group pieces on the main stage." },
-      { time: "09:00", name: "Blue Notes Speaker", note: "Solo artists at work in the courtyard, all day." },
-      { time: "12:00", name: "Immersive Art Gali", note: "Author reading, panel & open mic." },
-      { time: "01:30", name: "Clay Modelling Workshop", note: "Amphitheatre, into the night." },
+      {
+        time: "08:00",
+        name: "Slam Poetry Competition",
+        note: "Slam Poetry Competition at Mini WCH (4th Floor).",
+      },
+      {
+        time: "08:30",
+        name: "Welcoming of Attendees",
+        note: "Registration and welcome at the Double Height Area.",
+      },
+      {
+        time: "09:00",
+        name: "Hip Hop 101 (Dance Workshop & Battle)",
+        note: "Dance workshop and battle in Theatre Room 1 & 2.",
+      },
+      {
+        time: "09:00",
+        name: "The Fourth Wall (One-Act Play Competition)",
+        note: "One-act play competition at Mini WCH (IC Wing).",
+      },
+      {
+        time: "09:00",
+        name: "Take One (Film Making Workshop)",
+        note: "Filmmaking workshop at the Theatre Studio.",
+      },
+      {
+        time: "09:00",
+        name: "Art Heist Competition",
+        note: "Fine arts competition in Art Room 2.",
+      },
+      {
+        time: "12:00",
+        name: "The Journey of Jazz in Delhi",
+        note: "Jazz-focused session in Dance Room 3 & 4.",
+      },
+      {
+        time: "12:00",
+        name: "Tradition in Motion",
+        note: "Traditional dance session in Dance Room 1.",
+      },
+      {
+        time: "12:00",
+        name: "Step Inside (Immersive Art Galli)",
+        note: "Immersive Art Galli experience in Dance Room 1 & 2.",
+      },
+      {
+        time: "13:00",
+        name: "Lunch",
+        note: "Lunch at the Basketball Court.",
+      },
+      {
+        time: "13:30",
+        name: "Mitti Studio",
+        note: "Clay-focused creative workshop in Art Room 3.",
+      },
+      {
+        time: "All Day",
+        name: "ART GALI",
+        note: "ART GALI · 3rd Floor · All Day.",
+      },
     ],
   },
+
   {
     day: "Day 03",
-    date: "Sunday",
-    title: "Finales, Awards & Farewell",
+    date: "22 August",
+    title: "Finales, Performances & Farewell",
     color: "#98D24A",
     items: [
-      { time: "08:00", name: "University Fair", note: "Stage, Rhythm, Movement, Canvas and Words." },
-      { time: "09:00", name: "Mini Film Fest", note: "The Afsana Ensemble presents this year's headline work." },
-      { time: "10:00", name: "Rhapsody- Battle of the Bands (InterSchool)", note: "Category winners, overall trophy, spotlight awards." },
-      { time: "12:30", name: "Prize Distribution", note: "Reflections, festival song and farewell." },
-      { time: "01:30", name: "Rhapsody (IntraSchool)", note: "Solo artists at work in the courtyard, all day." },
-      { time: "02:30", name: "Prize Distribution", note: "Solo artists at work in the courtyard, all day." },
+      {
+        time: "08:30",
+        name: "Welcoming of Attendees",
+        note: "Registration and welcome at Double Heights.",
+      },
+      {
+        time: "09:00",
+        name: "University Fair (For Students)",
+        note: "University Fair for students at IC Wing Mini WCH.",
+      },
+      {
+        time: "09:00",
+        name: "SPIC MACAY Performance (For Parents)",
+        note: "SPIC MACAY performance for parents at Mini WCH (4th Floor).",
+      },
+      {
+        time: "09:30",
+        name: "Mini Film Fest - Culmination of Film Making Workshop",
+        note: "The culmination of the filmmaking workshop at the Theatre Studio.",
+      },
+      {
+        time: "10:00",
+        name: "University Fair (For Parents)",
+        note: "University Fair for parents at IC Wing Mini WCH.",
+      },
+      {
+        time: "10:00",
+        name: "Performance by the Judges (Rhapsody)",
+        note: "Special judges' performance at WCH.",
+      },
+      {
+        time: "11:00",
+        name: "Inter-School Rhapsody",
+        note: "Inter-school Rhapsody performance at WCH.",
+      },
+      {
+        time: "12:30",
+        name: "Closing Ceremony",
+        note: "Festival closing ceremony at WCH.",
+      },
+      {
+        time: "13:00",
+        name: "Lunch",
+        note: "Lunch at the Basketball Court.",
+      },
+      {
+        time: "13:30",
+        name: "Intra-School Rhapsody",
+        note: "Intra-school Rhapsody at WCH.",
+      },
+      {
+        time: "14:30",
+        name: "Prize Distribution of Intra-School Rhapsody",
+        note: "Prize distribution for Intra-School Rhapsody at WCH.",
+      },
     ],
   },
 ];
