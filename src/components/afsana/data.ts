@@ -130,16 +130,7 @@ export const events: Event[] = [
     timing: "Day 1 · 12:00 – 1:00",
     coordinator: "",
   },
-  {
-    id: "comedy-show",
-    name: "Comedy Show",
-    category: "The Stage · Theatre",
-    short: "",
-    concept: "",
-    venue: "WCH",
-    timing: "Day 1 · 1:30 – 2:30",
-    coordinator: "",
-  },
+
 
   // ---------- DAY 2 ----------
   {
@@ -325,7 +316,6 @@ export const timeline = [
       { time: "10:30", name: "Dance Championship", note: "A high-energy dance competition featuring multiple styles." },
       { time: "12:00", name: "Guest Speaker - AI and Arts", note: "Invited alumni ensemble." },
       { time: "12:00", name: "Silhouettes Workshop", note: "Invited alumni ensemble." },
-      { time: "01:30", name: "Comedy Show", note: "Invited alumni ensemble." },
     ],
   },
   {

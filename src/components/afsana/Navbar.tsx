@@ -14,14 +14,20 @@ const links = [
   { to: "/contact", label: "Contact" },
 ] as const;
 
+const registrationUrl =
+  "https://konfhub.com/checkout/afsana-shiv-nadar-school-gurgaon-arts-festival?ticketId=113083%7C1%3B";
+
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
+
     onScroll();
+
     window.addEventListener("scroll", onScroll, { passive: true });
+
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
@@ -37,16 +43,26 @@ export function Navbar() {
             scrolled ? "glass shadow-[var(--shadow-soft)]" : "bg-transparent"
           }`}
         >
-          <Link to="/" className="shrink-0" onClick={() => setOpen(false)}>
+          {/* Logo */}
+          <Link
+            to="/"
+            className="shrink-0"
+            onClick={() => setOpen(false)}
+          >
             <BrandMark />
           </Link>
+
+          {/* Desktop navigation */}
           <ul className="hidden items-center gap-1 lg:flex">
             {links.map((l) => (
               <li key={l.to}>
                 <Link
                   to={l.to}
                   className="rounded-full px-3.5 py-2 text-sm font-medium text-[var(--ink)]/80 transition-colors hover:bg-[var(--royal)]/5 hover:text-[var(--royal)]"
-                  activeProps={{ className: "bg-[var(--royal)]/5 text-[var(--royal)]" }}
+                  activeProps={{
+                    className:
+                      "bg-[var(--royal)]/5 text-[var(--royal)]",
+                  }}
                   activeOptions={{ exact: l.to === "/" }}
                 >
                   {l.label}
@@ -54,16 +70,30 @@ export function Navbar() {
               </li>
             ))}
           </ul>
-          <div className="hidden lg:block">
+
+          {/* Desktop actions */}
+          <div className="hidden items-center gap-2 lg:flex">
             <Link
               to="/events"
-              className="inline-flex items-center rounded-full bg-[var(--royal)] px-4 py-2 text-sm font-medium text-white transition-transform hover:-translate-y-0.5"
+              className="inline-flex items-center rounded-full border border-[var(--royal)]/20 px-4 py-2 text-sm font-medium text-[var(--royal)] transition-all hover:-translate-y-0.5 hover:bg-[var(--royal)]/5"
             >
               Explore Festival
             </Link>
+
+            <a
+              href={registrationUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-full bg-[var(--royal)] px-4 py-2 text-sm font-medium text-white transition-transform hover:-translate-y-0.5"
+            >
+              Register Now
+            </a>
           </div>
+
+          {/* Mobile menu button */}
           <button
             aria-label="Toggle menu"
+            aria-expanded={open}
             className="rounded-full p-2 text-[var(--royal)] lg:hidden"
             onClick={() => setOpen((v) => !v)}
           >
@@ -71,6 +101,7 @@ export function Navbar() {
           </button>
         </nav>
 
+        {/* Mobile navigation */}
         {open && (
           <div className="mt-2 rounded-2xl glass p-3 shadow-[var(--shadow-soft)] lg:hidden">
             <ul className="grid gap-1">
@@ -80,7 +111,10 @@ export function Navbar() {
                     to={l.to}
                     onClick={() => setOpen(false)}
                     className="block rounded-xl px-4 py-3 text-sm font-medium text-[var(--ink)] hover:bg-[var(--royal)]/5"
-                    activeProps={{ className: "bg-[var(--royal)]/5 text-[var(--royal)]" }}
+                    activeProps={{
+                      className:
+                        "bg-[var(--royal)]/5 text-[var(--royal)]",
+                    }}
                     activeOptions={{ exact: l.to === "/" }}
                   >
                     {l.label}
@@ -88,6 +122,27 @@ export function Navbar() {
                 </li>
               ))}
             </ul>
+
+            {/* Mobile actions */}
+            <div className="mt-2 grid gap-2 border-t border-[var(--border)] pt-3">
+              <Link
+                to="/events"
+                onClick={() => setOpen(false)}
+                className="rounded-xl border border-[var(--royal)]/20 px-4 py-3 text-center text-sm font-medium text-[var(--royal)] hover:bg-[var(--royal)]/5"
+              >
+                Explore Festival
+              </Link>
+
+              <a
+                href={registrationUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setOpen(false)}
+                className="rounded-xl bg-[var(--royal)] px-4 py-3 text-center text-sm font-medium text-white"
+              >
+                Register Now
+              </a>
+            </div>
           </div>
         )}
       </div>
