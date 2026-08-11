@@ -16,7 +16,8 @@ export const worlds: World[] = [
     label: "Music",
     blurb:
       "High-voltage performances, electrifying riffs, powerful vocals, and unforgettable stage presence — where bands battle for the ultimate spotlight.",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZlc3RpdmUlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fDB8fHww",
+    hue: "#0E2B6F",
+    tint: "rgba(14,43,111,.08)",
   },
   {
     slug: "8-beats",
