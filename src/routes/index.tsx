@@ -105,7 +105,7 @@ function Home() {
             },
             {
               title: "A stage that goes national",
-              body: "Delegates from partner schools across India. A week you'll be talking about, and a network you'll keep.",
+              body: "Budding storytellers from schools across India. A week you'll be talking about, and a network you'll keep.",
             },
           ].map((c, i) => (
             <Reveal key={c.title} delay={i * 100}>
@@ -165,73 +165,6 @@ function Home() {
           </Reveal>
         </div>
       </section>
-
-      {/* Journey Through Afsana */}
-            {/* Journey Through Afsana */}
-            <section className="relative section-y bg-[var(--muted)]">
-        <div className="container-x">
-          <Reveal>
-            <span className="eyebrow">
-              <span className="h-1.5 w-1.5 rounded-full bg-[var(--lime)]" />
-              Journey Through Afsana
-            </span>
-          </Reveal>
-
-          <Reveal delay={80}>
-            <h2 className="mt-4 max-w-3xl font-display text-4xl leading-[1.05] md:text-6xl">
-              A weekend told in{" "}
-              <span className="brand-gradient-text">chapters.</span>
-            </h2>
-          </Reveal>
-
-          <div className="mt-16 grid gap-10">
-            {[
-              {
-                k: "01",
-                h: "The Opening",
-                p: "The lamp is lit. The festival ensemble takes the stage. Every school walks in together.",
-              },
-              {
-                k: "02",
-                h: "The Craft",
-                p: "Rehearsals, warm-ups, workshops. Every hallway becomes a studio.",
-              },
-              {
-                k: "03",
-                h: "The Performance",
-                p: "Auditoriums fill. Amphitheatres glow. The stories arrive.",
-              },
-              {
-                k: "04",
-                h: "The Farewell",
-                p: "Awards, reflections, the festival song. And a courtyard full of new friends.",
-              },
-            ].map((c, i) => (
-              <Reveal key={c.k} delay={i * 100}>
-                <div className="grid gap-6 rounded-3xl border border-[var(--border)] bg-white p-8 md:grid-cols-[120px_1fr_auto] md:items-center md:p-10">
-                  <div className="font-display text-6xl text-[var(--cyan-brand)]">
-                    {c.k}
-                  </div>
-
-                  <div>
-                    <h3 className="font-display text-3xl text-[var(--royal)]">
-                      {c.h}
-                    </h3>
-                    <p className="mt-2 max-w-2xl text-[var(--mute)]">
-                      {c.p}
-                    </p>
-                  </div>
-
-                  <div className="hidden md:block">
-                    <div className="h-24 w-1 rounded-full bg-gradient-to-b from-[var(--royal)] via-[var(--cyan-brand)] to-[var(--lime)]" />
-                  </div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
 
       {/* Explore worlds preview */}
       <Section
@@ -330,51 +263,6 @@ function Home() {
       </Section>
 
 
-      {/* Highlights */}
-      <section className="section-y bg-[var(--royal-deep)] text-white">
-        <div className="container-x">
-          <Reveal>
-            <span className="eyebrow text-[var(--lime)]">
-              <span className="h-1.5 w-1.5 rounded-full bg-[var(--lime)]" />
-              Festival Highlights
-            </span>
-          </Reveal>
-
-          <Reveal delay={80}>
-            <h2 className="mt-4 max-w-3xl font-display text-4xl leading-[1.05] text-white md:text-6xl">
-              Moments that make{" "}
-              <span className="text-[var(--lime)]">Afsana, Afsana.</span>
-            </h2>
-          </Reveal>
-
-          <div className="mt-14 grid gap-8 md:grid-cols-3">
-            {[
-              {
-                t: "The Opening Ensemble",
-                p: "60 students. Five disciplines. One eight-minute opening act rehearsed for two months.",
-              },
-              {
-                t: "Flagship Performance",
-                p: "A commissioned piece staged only once — on the closing evening — with student and guest artists.",
-              },
-              {
-                t: "The Late Nights",
-                p: "Amphitheatre sets, courtyard poetry and a food truck line that has become its own tradition.",
-              },
-            ].map((c, i) => (
-              <Reveal key={c.t} delay={i * 100}>
-                <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur transition-transform hover:-translate-y-1">
-                  <h3 className="font-display text-2xl text-white">
-                    {c.t}
-                  </h3>
-
-                  <p className="mt-3 text-white/70">{c.p}</p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
             {/* Quote of the day */}
             <section className="section-y">
         <div className="container-x">
@@ -412,7 +300,7 @@ function Home() {
           <Reveal delay={80}>
             <h2 className="mt-4 max-w-3xl font-display text-4xl md:text-6xl">
               17+ schools.{" "}
-              <span className="brand-gradient-text">One weekend.</span>
+              <span className="brand-gradient-text">One festival.</span>
             </h2>
           </Reveal>
 
@@ -480,50 +368,12 @@ function Home() {
         eyebrow="Behind the Scenes"
         title={
           <>
-            Two months of{" "}
+            Five months of{" "}
             <span className="brand-gradient-text">making.</span>
           </>
         }
         intro="Afsana isn't a weekend — it's a semester. Design mock-ups, rehearsal schedules, technical run-throughs, hospitality plans, sponsor decks and a great deal of chai."
       >
-        <div className="grid gap-6 md:grid-cols-2">
-          <Reveal>
-            <div className="card-soft h-full p-8 hover:card-soft-hover">
-              <h3 className="font-display text-2xl text-[var(--royal)]">
-                The Studio
-              </h3>
-
-              <p className="mt-3 text-[var(--mute)]">
-                Design and identity are led by a student team working under a
-                working art director. Every poster, badge and stage backdrop is
-                built in-house.
-              </p>
-
-              <div className="mt-6 grid grid-cols-3 gap-3">
-                <div className="aspect-square rounded-2xl bg-[var(--royal)]/10" />
-                <div className="aspect-square rounded-2xl bg-[var(--cyan-brand)]/20" />
-                <div className="aspect-square rounded-2xl bg-[var(--lime)]/30" />
-              </div>
-            </div>
-          </Reveal>
-
-
-          <Reveal delay={100}>
-            <div className="card-soft h-full p-8 hover:card-soft-hover">
-              <h3 className="font-display text-2xl text-[var(--royal)]">
-                The Venue
-              </h3>
-
-              <p className="mt-3 text-[var(--mute)]">
-                A 6-acre campus in Gurgaon with an auditorium, amphitheatre,
-                black-box theatre, three studios and a central courtyard that
-                becomes the beating heart of Afsana.
-              </p>
-
-              <div className="mt-6 aspect-[16/9] w-full rounded-2xl bg-gradient-to-br from-[var(--royal)] via-[var(--cyan-brand)] to-[var(--lime)] opacity-90" />
-            </div>
-          </Reveal>
-        </div>
       </Section>
     </>
   );

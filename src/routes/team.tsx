@@ -39,7 +39,7 @@ function TeamPage() {
       <Section
         eyebrow="Organising Committee"
         title={<>Meet the <span className="brand-gradient-text">team.</span></>}
-        intro="Afsana is entirely student-led. Meet the directors, discipline heads and department leads behind the twelfth edition."
+        intro="Afsana is entirely student-led. Meet the directors, discipline heads and department leads behind the first edition."
       />
 
       <div className="container-x pb-32 space-y-20">

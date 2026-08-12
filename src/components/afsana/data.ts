@@ -22,7 +22,7 @@ export const worlds: World[] = [
   {
     slug: "8-beats",
     emoji: "💃",
-    name: "8 Beats",
+    name: "Unbound",
     label: "Dance",
     blurb:
       "From classical elegance to hip-hop energy, crews and soloists light up the stage with rhythm, passion, and breathtaking choreography.",
@@ -470,6 +470,7 @@ export const quotes = [
   { text: "Every artist was first an amateur.", author: "Ralph Waldo Emerson" },
   { text: "The purpose of art is washing the dust of daily life off our souls.", author: "Pablo Picasso" },
   { text: "A painter paints, a poet writes, a dancer dances. An artist keeps trying.", author: "Afsana Committee" },
+  { text: "Every student is a storyteller; only their medium differs.", author: "Afsana Committee" },
 ];
 
 export const sponsorTiers = [
@@ -507,8 +508,9 @@ export const team = [
   { name: "Shaurya Singh", role: "Head — Finance", dept: "Finance" },
   { name: "Aarav Singh", role: "Head - Logistics", dept: "Logistics" },
   { name: "Vania Pradhan", role: "Head - Design", dept: "Design" },
-  { name: "Vihaan Jindal", role: "Head - Tech", dept: "Tech" },
   { name: "Vidhi Dawar", role: "Head - Marketing", dept: "Marketing" },
+  { name: "Vihaan Jindal", role: "Head - Tech", dept: "Tech" },
+  
 ];
 
 export const faqs = [

@@ -53,9 +53,8 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest text-white/60">Reach us</h4>
             <ul className="mt-4 space-y-3 text-sm text-white/80">
-              <li className="flex items-center gap-3"><Mail size={16} /> afsana@shivnadarschool.edu.in</li>
-              <li className="flex items-center gap-3"><Phone size={16} /> +91 98xxxxxx21</li>
-              <li className="flex items-center gap-3"><Instagram size={16} /> @afsana.sns</li>
+              <li className="flex items-center gap-3"><Mail size={16} /> afsana.ggn@sns.edu.in</li>
+              <li className="flex items-center gap-3"><Instagram size={16} /> @afsanasnsggn</li>
               <li className="flex items-start gap-3"><MapPin size={16} className="mt-0.5" /> Shiv Nadar School, Gurgaon, Haryana</li>
             </ul>
           </div>
@@ -63,7 +62,7 @@ export function Footer() {
 
         <div className="mt-16 border-t border-white/10 pt-8">
           <p className="font-display text-2xl italic text-white/90 md:text-3xl">
-            "Every masterpiece begins with a story."
+            "Find Your Story"
           </p>
           <div className="mt-6 flex flex-col items-start justify-between gap-3 text-xs text-white/50 md:flex-row md:items-center">
             <span>© {new Date().getFullYear()} Afsana · Shiv Nadar School, Gurgaon</span>

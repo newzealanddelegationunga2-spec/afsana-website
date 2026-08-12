@@ -21,21 +21,23 @@ function About() {
       <Section
         eyebrow="About Afsana"
         title={<>A festival that treats every art form as <span className="brand-gradient-text">equal.</span></>}
-        intro="Afsana began as a single-evening arts showcase and has grown, over eleven editions, into one of the country's most anticipated student-led arts festivals — a three-day gathering of theatre, music, dance, fine arts and literary arts, hosted by Shiv Nadar School, Gurgaon."
+        intro="Afsana began as a random thought and has grown into one of the country's most anticipated student-led arts festivals — a three-day gathering of theatre, music, dance, fine arts and literary arts, hosted by Shiv Nadar School, Gurgaon."
       >
         <div className="grid gap-14 md:grid-cols-2 md:items-start">
           <Reveal>
             <div className="space-y-6 text-lg text-[var(--ink)] leading-relaxed">
               <p>
-                <span className="font-display text-4xl text-[var(--royal)]">Afsana</span> — Urdu for
+                <span className="font-display text-4xl text-[var(--royal)]">Afsana</span> — Urdu & Persian for
                 <em> a story </em>— is our answer to a simple question: what happens when a school
                 takes storytelling seriously, in every form it comes in?
               </p>
               <p className="text-[var(--mute)]">
-                For three days each year, our campus is handed over to students. They program the
-                festival. They design the identity. They run the auditorium, the black-box theatre,
-                the amphitheatre, the studios and the courtyard. Working artists, alumni and
-                educators come in as mentors and judges — but the festival is theirs.
+                For three days, our campus transforms into a vibrant celebration of music,
+                dance, theatre, film, and visual arts. Guiding this journey is a single star— our
+                symbol. Just as no two stars shine alike, no two artists express themselves
+                the same way. Together, these countless individual lights form a
+                constellation: an artistic community bound by curiosity, collaboration, and
+                shared purpose.
               </p>
               <p className="text-[var(--mute)]">
                 What we care about most: that the theatre student and the debater and the painter
@@ -60,29 +62,6 @@ function About() {
         </div>
       </Section>
 
-      <Section
-        eyebrow="Our Mission"
-        title={<>Storytelling, in <span className="brand-gradient-text">five languages.</span></>}
-        intro="Every discipline at Afsana is a way of telling a story — and every student is trusted to tell one."
-      >
-        <div className="grid gap-6 md:grid-cols-3">
-          {[
-            { h: "Excellence", p: "We judge fairly and rigorously. Feedback from mentors is as much a part of the prize as the trophy." },
-            { h: "Collaboration", p: "Cross-discipline projects are baked in — from the opening ensemble to the closing film." },
-            { h: "Access", p: "Delegates travel to Afsana from schools of every size. We work hard to make sure the room reflects that." },
-            { h: "Craft", p: "Workshops led by working artists. Real feedback. Real time on the tools." },
-            { h: "Imagination", p: "Prompts are provocative. Themes are open. Students set the tone." },
-            { h: "Joy", p: "The best weekend of the school year. That, first." },
-          ].map((c, i) => (
-            <Reveal key={c.h} delay={i * 80}>
-              <div className="card-soft h-full p-8 hover:card-soft-hover">
-                <h3 className="font-display text-2xl text-[var(--royal)]">{c.h}</h3>
-                <p className="mt-3 text-[var(--mute)]">{c.p}</p>
-              </div>
-            </Reveal>
-          ))}
-        </div>
-      </Section>
-    </div>
+          </div>
   );
 }
