@@ -64,7 +64,7 @@ const eventImages: Record<string, string> = {
     "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1200&q=85",
 
   "step-inside":
-    "public/truck.jpg",
+    "/truck.jpg",
 
   // ---------- DAY 2 ----------
 
