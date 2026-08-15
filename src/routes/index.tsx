@@ -171,7 +171,7 @@ function Home() {
         eyebrow="Explore Afsana"
         title={
           <>
-            Five artistic{" "}
+            Four artistic{" "}
             <span className="brand-gradient-text">worlds.</span>
           </>
         }
@@ -362,6 +362,45 @@ function Home() {
         </div>
       </section>
 
+            {/* Sponsors */}
+      <section className="section-y">
+        <div className="container-x">
+          <Reveal>
+            <span className="eyebrow">
+              <span className="h-1.5 w-1.5 rounded-full bg-[var(--lime)]" />
+              Our Sponsors
+            </span>
+          </Reveal>
+
+          <Reveal delay={80}>
+            <h2 className="mt-4 text-center font-display text-4xl md:text-6xl">
+              Our{" "}
+              <span className="brand-gradient-text">Sponsors.</span>
+            </h2>
+          </Reveal>
+
+          <Reveal delay={160}>
+            <div className="mt-12 grid grid-cols-1 items-center gap-8 md:grid-cols-3">
+              {[
+                "/trinity.png",
+                "/udit.png",
+                "/flame.png",
+              ].map((src, i) => (
+                <div
+                  key={i}
+                  className="flex h-44 items-center justify-center overflow-hidden rounded-3xl border border-[var(--border)] bg-white shadow-sm transition-transform hover:-translate-y-1"
+                >
+                  <img
+                    src={src}
+                    alt={`Sponsor ${i + 1}`}
+                    className="h-full w-full object-cover scale-100"
+                  />
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
       {/* Behind the scenes + venue */}
       <Section

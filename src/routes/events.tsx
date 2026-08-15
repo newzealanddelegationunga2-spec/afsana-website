@@ -45,10 +45,10 @@ const cats = [
 const eventImages: Record<string, string> = {
   // ---------- DAY 1 ----------
 
-  "art-therapy-workshop":
+  "negative-space":
     "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
-  "voices-from-the-past":
+  "archives":
     "https://surnosecrans.files.wordpress.com/2023/07/fracture.s-1-9.jpeg?w=1200",
 
   swaranjali:
@@ -57,39 +57,39 @@ const eventImages: Record<string, string> = {
   "dance-championship":
     "https://storage.ghost.io/c/81/43/8143ec94-5168-45b1-a5e8-d3ad406ee496/content/images/2025/01/Pic-2.JPG",
 
-  "ai-and-arts":
+  "spark-to-screen":
     "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?q=80&w=996&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
-  "silhouettes-workshop":
+  "silencio":
     "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1200&q=85",
 
-  "comedy-show":
-    "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?auto=format&fit=crop&w=1200&q=85",
+  "step-inside":
+    "public/truck.jpg",
 
   // ---------- DAY 2 ----------
 
-  "hip-hop-workshop":
+  "hip-hop-101":
     "https://images.unsplash.com/photo-1609602961949-eddbb90383cc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   "fourth-wall":
     "https://images.unsplash.com/photo-1514306191717-452ec28c7814?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
-  "take-one-workshop":
+  "take-one":
     "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=85",
 
   "art-heist":
     "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=1200&q=85",
 
-  "traditional-dance-speaker":
+  "tradition-in-motion":
     "https://images.unsplash.com/photo-1651512186979-737021ace442?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
-  "blue-notes-speaker":
+  "journey-of-jazz":
     "https://images.unsplash.com/photo-1546872006-43d8f499a0e1?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
-  "immersive-art-galli":
+  "art-galli-day-1":
     "https://images.unsplash.com/photo-1776813267051-f8ab779b1e9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZlc3RpdmUlMjBhcnQlMjBnYWxsZXJ5fGVufDB8fDB8fHww",
 
-  "clay-modelling-workshop":
+  "mitti-studio":
     "https://images.unsplash.com/photo-1529690840038-f38da8894ff6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
   "slam-poetry":
@@ -97,7 +97,7 @@ const eventImages: Record<string, string> = {
 
   // ---------- DAY 3 ----------
 
-  "university-fair":
+  "university-fair-students":
     "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/04/02/1775118711547_8d0a3cab-0979-418b-9b24-0566a03d63b1.jpeg",
 
   "mini-film-fest":
@@ -109,11 +109,20 @@ const eventImages: Record<string, string> = {
   "judges-performance":
     "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=1200&q=85",
 
-  "battle-of-the-bands":
+  "inter-school-rhapsody":
     "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1200&q=85",
 
-  "prize-distribution":
-    "https://images.unsplash.com/photo-1560439514-4e9645039924?auto=format&fit=crop&w=1200&q=85",
+  "rhapsody-prize-distribution":
+    "https://images.unsplash.com/photo-1706374503312-7a4a4c030d2d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+  "intra-school-rhapsody":
+    "https://images.unsplash.com/photo-1542813813-e6546b5d4914?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+  "closing-ceremony":
+    "https://images.unsplash.com/photo-1543980932-b5fc649a8000?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+  "spic-macay":
+    "https://images.unsplash.com/photo-1740456979373-0fd8cfa65a7a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 };
 
 function EventsPage() {

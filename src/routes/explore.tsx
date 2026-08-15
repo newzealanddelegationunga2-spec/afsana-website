@@ -6,22 +6,59 @@ import { worlds } from "../components/afsana/data";
 export const Route = createFileRoute("/explore")({
   head: () => ({
     meta: [
-      { title: "Explore Afsana — Five Artistic Worlds" },
-      { name: "description", content: "The Stage, The Rhythm, The Movement, The Canvas and The Words — the five artistic worlds of Afsana." },
-      { property: "og:title", content: "Explore Afsana — Five Artistic Worlds" },
-      { property: "og:description", content: "Theatre, Music, Dance, Fine Arts and Literary Arts — reimagined as immersive worlds." },
+      { title: "Explore Afsana — Four Artistic Worlds" },
+      {
+        name: "description",
+        content:
+          "The Stage, The Rhythm, The Movement, The Canvas and The Words — the five artistic worlds of Afsana.",
+      },
+      {
+        property: "og:title",
+        content: "Explore Afsana — Four Artistic Worlds",
+      },
+      {
+        property: "og:description",
+        content:
+          "Theatre, Music, Dance, Fine Arts and Literary Arts — reimagined as immersive worlds.",
+      },
     ],
     links: [{ rel: "canonical", href: "/explore" }],
   }),
   component: Explore,
 });
 
+/*
+ * Images are loaded from Unsplash's source service.
+ * The query determines the visual theme for each world.
+ */
+const worldImages: Record<string, string> = {
+  rhapsody:
+    "/DSC_5854.JPG",
+
+  unbound:
+    "https://images.unsplash.com/photo-1621976360623-004223992275?q=80&w=1128&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+  kalateet:
+    "https://images.unsplash.com/photo-1576724196706-3f23f51ea351?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+  art:
+    "/truck.jpg",
+
+  words:
+    "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=85",
+};
+
 function Explore() {
   return (
     <div className="pt-24">
       <Section
         eyebrow="Explore Afsana"
-        title={<>Five artistic <span className="brand-gradient-text">worlds.</span></>}
+        title={
+          <>
+            Four artistic{" "}
+            <span className="brand-gradient-text">worlds.</span>
+          </>
+        }
         intro="Each world has its own vocabulary, its own venues and its own way of turning a story into art. Walk through them."
       />
 
@@ -29,77 +66,99 @@ function Explore() {
         <div className="space-y-24 md:space-y-32">
           {worlds.map((w, idx) => {
             const flipped = idx % 2 === 1;
+            const image = worldImages[w.slug];
+
             return (
               <Reveal key={w.slug}>
                 <div
-                  className={`grid gap-10 md:grid-cols-2 md:items-center ${flipped ? "md:[direction:rtl]" : ""}`}
+                  className={`grid gap-10 md:grid-cols-2 md:items-center ${
+                    flipped ? "md:[direction:rtl]" : ""
+                  }`}
                 >
+                  {/* IMAGE */}
                   <div className="md:[direction:ltr]">
-                    <div
-                      className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem]"
-                      style={{ background: `linear-gradient(135deg, ${w.hue}, #fff)` }}
-                    >
-                      <div
-                        className="pointer-events-none absolute inset-0 opacity-70"
-                        style={{ background: `radial-gradient(closest-side, ${w.tint}, transparent 70%)` }}
+                    <div className="group relative aspect-[4/5] w-full overflow-hidden rounded-[2rem] bg-[var(--muted)] shadow-[var(--shadow-soft)]">
+                      <img
+                        src={image}
+                        alt={`${w.name} — ${w.label}`}
+                        className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                        loading={idx === 0 ? "eager" : "lazy"}
+                        decoding="async"
                       />
-                      <svg viewBox="0 0 400 500" className="absolute inset-0 h-full w-full" aria-hidden>
-                        {idx === 0 && (
-                          <>
-                            <path d="M0,60 L400,60 L400,80 C200,120 200,120 0,80 Z" fill="#fff" opacity=".25" />
-                            <path d="M0,60 L60,500 L340,500 L400,60 Z" fill="#fff" opacity=".08" />
-                            <circle cx="200" cy="260" r="60" fill="#fff" opacity=".25" />
-                          </>
-                        )}
-                        {idx === 1 && (
-                          <g stroke="#fff" strokeWidth="4" fill="none" opacity=".7">
-                            {Array.from({ length: 22 }).map((_, i) => {
-                              const x = 20 + i * 18;
-                              const h = 40 + Math.abs(Math.sin(i)) * 120;
-                              return <line key={i} x1={x} y1={250 - h} x2={x} y2={250 + h} />;
-                            })}
-                          </g>
-                        )}
-                        {idx === 2 && (
-                          <>
-                            <path d="M50,400 C150,200 250,500 350,300" fill="none" stroke="#fff" strokeWidth="6" opacity=".7" />
-                            <circle cx="120" cy="180" r="30" fill="#fff" opacity=".4" />
-                            <circle cx="280" cy="360" r="24" fill="#fff" opacity=".5" />
-                          </>
-                        )}
-                        {idx === 3 && (
-                          <>
-                            <rect x="60" y="80" width="120" height="160" rx="20" fill="#fff" opacity=".25" />
-                            <circle cx="280" cy="180" r="70" fill="#fff" opacity=".25" />
-                            <path d="M60,340 C160,300 240,420 360,340" stroke="#fff" strokeWidth="6" fill="none" opacity=".6" />
-                          </>
-                        )}
-                        {idx === 4 && (
-                          <>
-                            <path d="M60,100 L340,100 M60,140 L300,140 M60,180 L340,180 M60,220 L280,220 M60,260 L340,260 M60,300 L260,300" stroke="#fff" strokeWidth="6" opacity=".5" strokeLinecap="round" />
-                            <circle cx="330" cy="380" r="46" fill="#fff" opacity=".35" />
-                          </>
-                        )}
-                      </svg>
-                      <div className="absolute bottom-6 left-6 text-6xl">{w.emoji}</div>
+
+                      {/* Subtle cinematic overlay */}
+                      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-black/5" />
+
+                      {/* World number */}
+                      <div className="absolute left-6 top-6 rounded-full border border-white/30 bg-black/20 px-4 py-2 text-xs font-medium tracking-[0.2em] text-white backdrop-blur-md">
+                        {String(idx + 1).padStart(2, "0")}
+                      </div>
+
+                      {/* Emoji */}
+                      <div className="absolute bottom-6 left-6 text-5xl drop-shadow-lg md:text-6xl">
+                        {w.emoji}
+                      </div>
                     </div>
                   </div>
+
+                  {/* CONTENT */}
                   <div className="md:[direction:ltr]">
-                    <div className="text-xs uppercase tracking-[0.25em]" style={{ color: w.hue }}>
+                    <div
+                      className="text-xs uppercase tracking-[0.25em]"
+                      style={{ color: w.hue }}
+                    >
                       {String(idx + 1).padStart(2, "0")} · {w.label}
                     </div>
+
                     <h3 className="mt-3 font-display text-5xl leading-[1.02] text-[var(--royal)] md:text-6xl">
                       {w.name}
                     </h3>
-                    <p className="mt-6 max-w-lg text-lg text-[var(--mute)]">{w.blurb}</p>
+
+                    <p className="mt-6 max-w-lg text-lg text-[var(--mute)]">
+                      {w.blurb}
+                    </p>
+
                     <ul className="mt-8 space-y-3 text-[var(--ink)]">
-                      {(idx === 0 ? ["Swaranjali", "Battle Of The Bands", "Blue Notes Jazz"]
-                        : idx === 1 ? ["Dance Championship", "Dance Workshop", "Hip Hop Dance Battle", "Traditional Dance Speaker"]
-                        : idx === 2 ? ["Voices From The Past", "Sillhouette Workshop", "The Fourth Wall Competition"]
-                        : idx === 3 ? ["Art Therapy Workshop", "Art Heist Competition", "Clay Modelling Workshop", "Immersive Art Galli"]
-                        : ["Art Therapy Workshop", "Art Heist Competition", "Clay Modelling Workshop", "Immersive Art Galli"]).map((n) => (
-                        <li key={n} className="flex items-center gap-3">
-                          <span className="h-1.5 w-1.5 rounded-full" style={{ background: w.hue }} />
+                      {(
+                        idx === 0
+                          ? [
+                              "Swaranjali",
+                              "Rhapsody",
+                              "The Journey of Jazz in Delhi",
+                            ]
+                          : idx === 1
+                            ? [
+                                "Dance Championship",
+                                "Hip Hop 101",
+                                "Tradition in Motion",
+                              ]
+                            : idx === 2
+                              ? [
+                                  "Archives",
+                                  "Silencio",
+                                  "The Fourth Wall",
+                                ]
+                              : idx === 3
+                                ? [
+                                    "Negative Space",
+                                    "Art Heist",
+                                    "Mitti Studio",
+                                    "Step Inside",
+                                  ]
+                                : [
+                                    "Slam Poetry",
+                                    "Take One",
+                                    "Spark to Screen",
+                                  ]
+                      ).map((n) => (
+                        <li
+                          key={n}
+                          className="flex items-center gap-3"
+                        >
+                          <span
+                            className="h-1.5 w-1.5 shrink-0 rounded-full"
+                            style={{ background: w.hue }}
+                          />
                           {n}
                         </li>
                       ))}

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 // Placeholder festival date - late in this academic year
-const TARGET = new Date("2026-08-20T09:00:00+05:30").getTime();
+const TARGET = new Date("2026-08-20T09:00:00+08:30").getTime();
 
 function diff() {
   const now = Date.now();

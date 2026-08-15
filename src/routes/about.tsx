@@ -47,18 +47,19 @@ function About() {
             </div>
           </Reveal>
           <Reveal delay={120}>
-            <div className="relative">
-              <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl bg-gradient-to-br from-[var(--royal)] via-[var(--cyan-brand)] to-[var(--lime)]">
-                <svg viewBox="0 0 400 500" className="h-full w-full opacity-60" aria-hidden>
-                  <circle cx="120" cy="140" r="90" fill="#fff" opacity=".15" />
-                  <circle cx="290" cy="300" r="130" fill="#fff" opacity=".18" />
-                  <path d="M40,420 C120,360 240,480 380,380" stroke="#fff" strokeWidth="3" fill="none" opacity=".6" />
-                </svg>
-              </div>
-              <div className="anim-float absolute -right-6 -top-6 h-24 w-24 rounded-3xl bg-[var(--lime)]" />
-              <div className="anim-drift absolute -bottom-8 -left-8 h-32 w-32 rounded-full bg-[var(--cyan-brand)]/70" />
+          <div className="relative">
+            <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl">
+              <img
+                src="\afsana-logo.png"
+                alt="Afsana Arts Festival"
+                className="h-full w-full object-contain"
+              />
             </div>
-          </Reveal>
+
+            <div className="anim-float absolute -right-6 -top-6 h-24 w-24 rounded-3xl bg-[var(--lime)]" />
+            <div className="anim-drift absolute -bottom-8 -left-8 h-32 w-32 rounded-full bg-[var(--cyan-brand)]/70" />
+          </div>
+        </Reveal>
         </div>
       </Section>
 
