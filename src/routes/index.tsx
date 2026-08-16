@@ -72,7 +72,7 @@ function Home() {
               <Reveal delay={160}>
                 <p className="mt-4 max-w-xl text-lg text-[var(--mute)]">
                   Three days of theatre, sound, movement, colour and language.
-                  Mark the dates — the twelfth edition of Afsana begins soon.
+                  Mark the dates — the first edition of Afsana begins soon.
                 </p>
               </Reveal>
             </div>
