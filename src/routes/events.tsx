@@ -28,11 +28,10 @@ export const Route = createFileRoute("/events")({
 
 const cats = [
   "All",
-  "The Stage · Theatre",
-  "The Rhythm · Music",
-  "The Movement · Dance",
-  "The Canvas · Fine Arts",
-  "The Words · Literary Arts",
+  "Kalateet",
+  "Rhapsody",
+  "Unbound",
+  "Art Galli",
   "Cross-discipline",
 ];
 

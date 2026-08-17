@@ -68,7 +68,7 @@ export const events: Event[] = [
   {
     id: "negative-space",
     name: "Negative Space",
-    category: "The Canvas · Fine Arts",
+    category: "Art Galli",
     short: "Create. Reflect. Heal.",
     concept:
       "Art has the ability to express emotions that words often cannot. This workshop invites participants to slow down and reconnect with themselves through the artistic technique of negative space, focusing on what is left out rather than what is added. Through creative expression, participants explore mindfulness, self-reflection, letting go of distractions, and the discovery of meaningful space within themselves.",
@@ -80,7 +80,7 @@ export const events: Event[] = [
   {
     id: "archives",
     name: "Archives",
-    category: "The Stage · Theatre",
+    category: "Kalateet",
     short: "History finds its voice.",
     concept:
       "A monologue competition where participants step into the lives of iconic historical personalities whose actions and ideas have shaped societies. Through research, interpretation, and expressive performance, students explore the triumphs, struggles, motivations, and legacies of remarkable individuals, bringing history to life through theatre.",
@@ -92,7 +92,7 @@ export const events: Event[] = [
   {
     id: "swaranjali",
     name: "Swaranjali",
-    category: "The Rhythm · Music",
+    category: "Rhapsody",
     short: "Raga & Rigour.",
     concept:
       "An interactive Indian classical music workshop featuring demonstrations of ragas, rhythm, improvisation, and the relationship between melody and tala. Participants also engage with the artist's musical journey and gain insight into the practice, discipline, and possibilities of a career in Indian classical music.",
@@ -104,7 +104,7 @@ export const events: Event[] = [
   {
     id: "dance-championship",
     name: "Dance Championship",
-    category: "The Movement · Dance",
+    category: "Unbound",
     short: "Find your rhythm.",
     concept:
       "A group dance competition celebrating individuality, creativity, and storytelling through movement. Teams may explore a range of dance styles and fusions, with performances judged on synchronization, musicality, originality, storytelling, and the ability to create a unified artistic identity.",
@@ -116,7 +116,7 @@ export const events: Event[] = [
   {
     id: "silencio",
     name: "Silencio",
-    category: "The Stage · Theatre",
+    category: "Kalateet",
     short: "Stories without words.",
     concept:
       "A mime competition challenging participants to communicate stories, emotions, and ideas without spoken words. Through facial expressions, body language, movement, gesture, and carefully constructed performances, participants explore the expressive possibilities of theatre beyond dialogue.",
@@ -140,7 +140,7 @@ export const events: Event[] = [
   {
     id: "art-galli-day-1",
     name: "Art Galli",
-    category: "The Canvas · Fine Arts",
+    category: "Art Galli",
     short: "A street of stories.",
     concept:
       "An immersive celebration of Indian street culture inspired by truck art, bazaars, community spaces, and the visual language of a desi-retro street. Visitors can wander through interactive spaces, discover artworks, participate in activities, and experience the energy and nostalgia of Art Galli.",
@@ -165,7 +165,7 @@ export const events: Event[] = [
   {
     id: "hip-hop-101",
     name: "Hip Hop 101",
-    category: "The Movement · Dance",
+    category: "Unbound",
     short: "Learn. Battle. Perform.",
     concept:
       "A high-energy workshop exploring the foundations, history, culture, and evolution of hip-hop dance. Participants learn grooves, techniques, rhythm, musicality, and movement vocabulary while exploring how energy, timing, texture, and intention give movement its identity. The workshop culminates in a battle celebrating creativity, individuality, freedom, and self-expression.",
@@ -177,7 +177,7 @@ export const events: Event[] = [
   {
     id: "fourth-wall",
     name: "The Fourth Wall",
-    category: "The Stage · Theatre",
+    category: "Kalateet",
     short: "One stage. Endless stories.",
     concept:
       "A one-act play competition where participants devise an original theatrical performance inspired by a single abstract word. Ideas such as Labels, Time, Connections, Freedom, or Silence become starting points for teams to explore personal experiences, social realities, and creative interpretations through collaborative theatre-making.",
@@ -201,7 +201,7 @@ export const events: Event[] = [
   {
     id: "art-heist",
     name: "Art Heist",
-    category: "The Canvas · Fine Arts",
+    category: "Art Galli",
     short: "Steal the essence. Make it yours.",
     concept:
       "A visual art competition challenging participants to study the visual language of influential Indian artists and transform those influences into original artwork. Participants explore elements such as colour, composition, symbolism, linework, technique, and subject before reinterpreting them through their own creative voice.",
@@ -213,7 +213,7 @@ export const events: Event[] = [
   {
     id: "journey-of-jazz",
     name: "The Journey of Jazz in Delhi",
-    category: "The Rhythm · Music",
+    category: "Rhapsody",
     short: "Jazz has a story.",
     concept:
       "An interactive session exploring the history and evolution of Delhi's jazz scene, tracing the musicians, venues, independent collectives, and cultural influences that shaped the city's musical identity. The session combines cultural insights and anecdotes with an interactive Q&A and live musical experience.",
@@ -225,7 +225,7 @@ export const events: Event[] = [
   {
     id: "tradition-in-motion",
     name: "Tradition in Motion",
-    category: "The Movement · Dance",
+    category: "Unbound",
     short: "Tradition in motion.",
     concept:
       "An immersive session led by a guest artist exploring the beauty of Indian classical dance through rhythm, expression, storytelling, and movement. Participants engage in discussion, ask questions, and discover how an ancient art form continues to evolve and remain relevant in the present.",
@@ -235,21 +235,9 @@ export const events: Event[] = [
   },
 
   {
-    id: "step-inside",
-    name: "Step Inside",
-    category: "The Canvas · Fine Arts",
-    short: "Walk through art.",
-    concept:
-      "An immersive Art Galli experience inspired by Indian truck art and the visual culture of Indian streets. Visitors can explore different spaces designed around community, nostalgia, culture, conversation, and creativity, creating an experience where art is not simply viewed but entered and experienced.",
-    venue: "Dance Room 1 & 2",
-    timing: "Day 2 · 12:00 – 2:30",
-    coordinator: "",
-  },
-
-  {
     id: "mitti-studio",
     name: "Mitti Studio",
-    category: "The Canvas · Fine Arts",
+    category: "Art Galli",
     short: "Shape your imagination.",
     concept:
       "A hands-on creative session inviting participants to work directly with clay, natural textures, and living seeds. Inspired by the Gaia Hypothesis and the connections between soil, human health, trees, biodiversity, and food systems, participants create physical artefacts celebrating India's ecological and cultural heritage.",
@@ -275,7 +263,7 @@ export const events: Event[] = [
   {
     id: "spic-macay",
     name: "SPIC MACAY Performance",
-    category: "The Rhythm · Music",
+    category: "Rhapsody",
     short: "Tradition on stage.",
     concept:
       "A special performance presented in association with SPIC MACAY, bringing students and parents closer to India's rich classical and traditional performing arts heritage through a live artistic experience.",
@@ -300,7 +288,7 @@ export const events: Event[] = [
   {
     id: "judges-performance",
     name: "Performance by the Judges",
-    category: "The Rhythm · Music",
+    category: "Rhapsody",
     short: "The masters take the stage.",
     concept:
       "A special live performance by the judges of Rhapsody, giving attendees an opportunity to experience the artistry and musicianship of the professionals evaluating the festival's bands.",
@@ -312,7 +300,7 @@ export const events: Event[] = [
   {
     id: "inter-school-rhapsody",
     name: "Rhapsody · Inter-School",
-    category: "The Rhythm · Music",
+    category: "Rhapsody",
     short: "Where talent takes the stage.",
     concept:
       "The flagship inter-school music competition, bringing together student bands for live performances before a professional jury. Bands showcase their musical identity through original music or fresh interpretations while demonstrating musicality, coordination, technical skill, stage presence, and overall performance.",
@@ -336,7 +324,7 @@ export const events: Event[] = [
   {
     id: "intra-school-rhapsody",
     name: "Rhapsody · Intra-School",
-    category: "The Rhythm · Music",
+    category: "Rhapsody",
     short: "Our voices. Our stage.",
     concept:
       "An intra-school celebration of music featuring student performers from within the school community. The event gives young musicians the opportunity to perform live, experiment with their sound, and celebrate the collaborative spirit of Rhapsody.",
@@ -463,11 +451,7 @@ export const timeline = [
         name: "Tradition in Motion",
         note: "Traditional dance session in Dance Room 1.",
       },
-      {
-        time: "12:00",
-        name: "Step Inside (Immersive Art Galli)",
-        note: "Immersive Art Galli experience in Dance Room 1 & 2.",
-      },
+      
       {
         time: "13:00",
         name: "Lunch",
